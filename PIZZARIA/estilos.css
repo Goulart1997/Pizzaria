@@ -1,0 +1,75 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FAEBD7;
+}
+
+header, article, section{
+    width: 80%;
+    margin: auto;
+}
+h1 , h2{
+    margin: 0%;
+}
+article h2 {
+    text-align: center;
+    color: red;
+}
+#diferenciais h2 {
+    color: green;
+}
+section h2 {
+    margin-top: 100px;
+}
+
+header{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    
+}
+p, li {
+    font-size: 1.2em;
+}
+
+
+
+
+nav ul{
+    position: absolute;
+    top: 25px;
+    right: 0;
+    
+}
+
+
+
+nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+nav ul li a{
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: red;
+}
+
+/* inline - block: exibe um elemento ao lado do outro e mantem as propriedades de margens , bordas e "padding" */
+.pizza-grande {
+    width: 100%;
+}
+#diferenciais ul {
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+}
+#diferenciais ul li {
+    line-height: 2.5;     
+}
+#diferenciais img {
+    width: 50%;
+}
