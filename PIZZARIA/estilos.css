@@ -2,13 +2,14 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #FAEBD7;
+    
 }
 
-header, article, section{
+header, article, section,footer{
     width: 80%;
     margin: auto;
 }
-h1 , h2{
+h1 , h2 {
     margin: 0%;
 }
 article h2 {
@@ -18,7 +19,7 @@ article h2 {
 #diferenciais h2 {
     color: green;
 }
-section h2 {
+section h2, h3{
     margin-top: 100px;
 }
 
@@ -72,4 +73,48 @@ nav ul li a:hover {
 }
 #diferenciais img {
     width: 50%;
+}
+section h3{
+    font-size: 25px;
+    
+
+}
+#cardapio img{
+    width: 300px;
+    margin: 2.5%;
+    display: inline;
+    
+}
+#cardapio p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.box{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.box-p {
+    color: red;
+}
+.box-t{
+    color: red
+}
+.box-img:hover{
+    transform: rotate(100deg) ;
+    transition: 3s;
+
+}
+footer{
+    background-color: green;
+    text-align: center;
+    margin-top: 100px;
+}
+footer p:hover{
+    color: red;
+    cursor: pointer;
+    
+
 }
